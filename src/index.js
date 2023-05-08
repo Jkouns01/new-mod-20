@@ -65,7 +65,7 @@ function Contact() {
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input type="email" name="email" defaultValue={email}/>
         </div>
         {errorMessage && (
           <div>
@@ -75,6 +75,6 @@ function Contact() {
         <button data-testid="button" type="submit">Submit</button>
       </form>
     </section>
-  );
+  )
 }
  
